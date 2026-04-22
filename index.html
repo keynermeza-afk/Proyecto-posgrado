@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Proyecto De Posgrado - Innovación Tecnológica</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS que creará la Persona 2 -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JavaScript que creará la Persona 3 -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="main-header">
+        <div class="logo-container">
+            <div class="logo-icon">&lt;/&gt;</div>
+            <h1 class="site-name">Innovación Tecnológica</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main>
+
+        <!-- ========== HERO SECTION ========== -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="highlight">🚀 Proyecto De Posgrado</div>
+                <h1>Soluciones <span class="highlight-text">Tecnológicas</span> a tu medida</h1>
+                <p>Desarrollamos software de alta calidad, aplicaciones móviles y soluciones en la nube para potenciar tu negocio.</p>
+                <div class="hero-buttons">
+                    <a href="#servicios" class="btn btn-primary">Ver Servicios</a>
+                    <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20sus%20servicios%20tecnológicos" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SERVICIOS ========== -->
+        <section id="servicios" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>⚡ Nuestros Servicios ⚡</h2>
+                    <p>Soluciones tecnológicas adaptadas a tus necesidades</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Servicio 1: Desarrollo Web -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Desarrollo Web</h3>
+                            <p>Sitios web modernos, rápidos y responsivos. Tecnologías: React, Vue, Angular.</p>
+                            <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20DESARROLLO%20WEB" class="btn btn-contact" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Cotizar
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Servicio 2: Apps Móviles -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Apps Móviles</h3>
+                            <p>Aplicaciones nativas iOS y Android. Experiencias de usuario excepcionales.</p>
+                            <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20APPS%20MÓVILES" class="btn btn-contact" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Cotizar
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Servicio 3: Soluciones Cloud -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Soluciones Cloud</h3>
+                            <p>Infraestructura en AWS y Google Cloud. Escalabilidad garantizada.</p>
+                            <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20SOLUCIONES%20CLOUD" class="btn btn-contact" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Cotizar
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Servicio 4: Inteligencia Artificial -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Inteligencia Artificial</h3>
+                            <p>Automatización, chatbots, visión computacional y análisis predictivo.</p>
+                            <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20INTELIGENCIA%20ARTIFICIAL" class="btn btn-contact" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Cotizar
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Servicio 5: Ciberseguridad -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Ciberseguridad</h3>
+                            <p>Protección de datos, auditorías y cumplimiento normativo.</p>
+                            <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20CIBERSEGURIDAD" class="btn btn-contact" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Cotizar
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Servicio 6: Consultoría IT -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Consultoría IT</h3>
+                            <p>Asesoramiento estratégico para la transformación digital.</p>
+                            <a href="https://wa.me/573115690597?text=Hola!%20Quiero%20información%20sobre%20CONSULTORÍA%20IT" class="btn btn-contact" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Cotizar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TECNOLOGÍAS ========== -->
+        <section id="tecnologias" class="technologies">
+            <div class="container">
+                <div class="section-header">
+                    <h2>🛠️ Tecnologías que usamos 🛠️</h2>
+                    <p>Herramientas modernas para tus proyectos</p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-badge"><i class="fab fa-code"></i> PowerShell</div>
+                    <div class="tech-badge"><i class="fab fa-code"></i> Visual Studio Code</div>
+                    <div class="tech-badge"><i class="fab fa-jira"></i> Jira</div>
+                    <div class="tech-badge"><i class="fab fa-github"></i> Git</div>
+                    <div class="tech-badge"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="tech-badge"><i class="fas fa-server"></i> Backend</div>
+                    <div class="tech-badge"><i class="fab fa-react"></i> React</div>
+                    <div class="tech-badge"><i class="fab fa-node"></i> Node.js</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TESTIMONIOS ========== -->
+        <section id="testimonios" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>💬 Lo que dicen nuestros clientes 💬</h2>
+                    <p>Más de 100+ empresas confían en nosotros</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"TechSolutions transformó por completo nuestra infraestructura tecnológica. El equipo es profesional y muy comprometido."</p>
+                        <div class="testimonial-author">
+                            <strong>Carlos Mendoza</strong>
+                            <span>CTO de Innovatech</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"La app que desarrollaron para nuestra empresa superó todas las expectativas. Excelente calidad y soporte continuo."</p>
+                        <div class="testimonial-author">
+                            <strong>Diego Ortega</strong>
+                            <span>CEO de TechStart</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"Gracias a su consultoría, optimizamos nuestros procesos y redujimos costos operativos en un 40%."</p>
+                        <div class="testimonial-author">
+                            <strong>Maria Camila</strong>
+                            <span>Directora de Operaciones</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ASIDE / CONTACTO ========== -->
+        <aside class="contact-aside">
+            <div class="container">
+                <div class="aside-grid">
+                    <div class="news-section">
+                        <h3><i class="fas fa-newspaper"></i> Noticias Tecnológicas</h3>
+                        <ul class="news-list">
+                            <li><a href="#">La IA está transformando el desarrollo de software</a></li>
+                            <li><a href="#">Tendencias en ciberseguridad para 2026</a></li>
+                            <li><a href="#">El auge del desarrollo low-code</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-section">
+                        <h3><i class="fas fa-share-alt"></i> Síguenos en redes</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-section">
+                        <h3><i class="fas fa-envelope"></i> Contacto directo</h3>
+                        <p><i class="fas fa-phone"></i> +57 311 5690597</p>
+                        <p><i class="fas fa-envelope"></i> 98diegoaortega@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> cartagena, Colombia</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Proyecto De Posgrado 2026. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                    <a href="#">Contáctenos</a>
+                    <a href="https://wa.me/573115690597" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
